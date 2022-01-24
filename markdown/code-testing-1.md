@@ -1,13 +1,17 @@
-This blog is just about trying to write code in markdown
+# This blog is just about trying to write code in markdown
 
-AVR Assembly:
+## AVR Assembly
+
 ```avrasm
 loop:
     inc r16
     jmp loop
 ```
+
 ****
-C++
+
+## C++
+
 ```C++
 #include <iostream>
 int main()
@@ -16,34 +20,45 @@ cout << "Hello, World!" << endl;
 return 0;
 }
 ```
+
 ****
-python
+
+## python
+
 ```python
 print("Hello")
 for i in range(10)
 print(i)
 ```
+
 ****
-SQL
+
+## SQL
+
 ```sql
 SELECT FROM DATABASE r1 from table e2 where NAME="Muhammed"
 ```
+
 ****
+
+## HTML
+
 ```html
 
 <head>
-	<title>Blog!</title>
-	<meta charset="utf-8">
-	<link rel="alternate" type="application/atom+xml" title="RSS Feed" href="rss.xml">
-	<link rel="stylesheet" href="style.css">
-	<link rel="shortcut icon" href="images/favicon.png">
+ <title>Blog!</title>
+ <meta charset="utf-8">
+ <link rel="alternate" type="application/atom+xml" title="RSS Feed" href="rss.xml">
+ <link rel="stylesheet" href="style.css">
+ <link rel="shortcut icon" href="images/favicon.png">
 </head>
 
 ```
-***
+
+****
 to finish this i'm gonna post my neofetch/s
 
-```
+```bash
 --------------------------------------   muhammed@firebolt 
 --------------------------------------   ----------------- 
 --------------------------------------   OS: Bedrock Linux 0.7.25 Poki x86_64 
@@ -65,9 +80,11 @@ to finish this i'm gonna post my neofetch/s
                                          GPU: AMD ATI Radeon R7 M260/M265 / M340/M360 / M440/M445 / 530/535 / 6 
                                          Memory: 3288MiB / 11689MiB (28%) 
 ```
-***
+
+****
 Gentoo Strata
-```
+
+```bash
          -/oyddmdhs+:.                muhammed@firebolt 
      -odNMMMMMMMMNNmhy+-`             ----------------- 
    -yNMMMMMMMMMMMNNNmmdhy+-           OS: Gentoo/Linux x86_64 
@@ -88,9 +105,11 @@ yMMNNNNNNNmmmmmNNMmhs+/-`             Memory: 3268MiB / 11689MiB (27%)
   `-//////:--.                                                
 
 ```
+
 ****
 Arch
-```
+
+```bash
                    -`                    muhammed@firebolt 
                   .o+`                   ----------------- 
                  `ooo/                   OS: Arch Linux x86_64 
@@ -111,4 +130,5 @@ Arch
  `++:.                           `-/+/
  .`                                 `/                           
  ```
+
 this is it Thanks for keeping up! :D
